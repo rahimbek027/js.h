@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="./logo/logo_coffe.svg" alt="logo">
+                </div>
+                <ul class="navbar__collection">
+                    <li class="navbar__item"><a href="#"><span>About us</span></a></li>
+                    <li class="navbar__item"><a href="#"><span>Our Product</span></a></li>
+                    <li class="navbar__item"><a href="#"><span>Delivery</span></a></li>
+                </ul>
+                <div class="navbar__shop">
+
+                    <div class="navbar__inp">
+                        <button class="navbar__btr"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <img src="./logo/search.svg" alt="search-logo">
+                        <input class="navbar__input" placeholder="Cappuccino " type="text">
+                    </div>
+                    <img src="./logo/market.svg" alt="market-logo">
+                </div>
+                <div onclick="toggleShow()" class="navbar__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__content">
+                        <p style="max-width: 500px;" class="hero__enjoy">Enjoy your <span style="color: #FF902B
+                          ">coffee</span> before your activity</p>
+                        <p style="max-width: 400px;" class="hero__boost">Boost your productivity and build your mood with a glass of coffee in the
+                            morning </p>
+                        <div class="hero__menu">
+                            <button class="order">order now <img src="./logo/market2.svg" alt=""> </button>
+                            <button class="more">More menu</button>
+                        </div>
+                    </div>
+                    <div class="hero__img">
+                        <img src="./img/img-hero.svg" alt="">
+                    </div>
+                </div>
+                <h2>Popular Now</h2>
+                <img class="rectangle" src="./assets/Rectangle 7.svg" alt="">
+            </div>
+        </section>
+        <section class="popular">
+            <div class="hero__container">
+                <div class="popular__box">
+                    <div class="container">
+                        <div class="popular__wrapper">
+                            <div class="popular__content">
+                                <div class="popular__img">
+                                    <img src="./img/img_product.svg" alt="">
+                                </div>
+                                <div class="popular__theme">
+                                  <div class="pupular__vanila">
+                                      <p class="popular__title">Vanilla Latte</p>
+                               <p class="popular__title">21k</p>
+                                  </div>
+                                  <div class="popular__icon"> 
+                                  <div class="popular__btr">
+                                      <button class="popular__hot">Hot</button>
+                                      <button class="popular__hot">Cold</button>
+                                  </div>   
+                                  <img style="width: 40px;" src="./logo/market2.svg" alt="">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="popular__content noactiv">
+                                <div class="popular__img">
+                                    <img src="./img/img_product.svg" alt="">
+                                </div>
+                                <div class="popular__theme">
+                                  <div class="pupular__vanila">
+                                      <p class="popular__title">Espresso</p>
+                               <p class="popular__title">12 K</p>
+                                  </div>
+                                  <div class="popular__icon"> 
+                                  <div class="popular__btr">
+                                      <button class="popular__hot">Hot</button>
+                                      <button class="popular__hot">Cold</button>
+                                  </div>   
+                                  <img style="width: 40px;" src="./logo/market2.svg" alt="">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="popular__content activ">
+                                <div class="popular__img">
+                                    <img src="./img/img_product.svg" alt="">
+                                </div>
+                                <div class="popular__theme">
+                                  <div class="pupular__vanila">
+                                      <p class="popular__title">Hazelnut Latte</p>
+                               <p class="popular__title">23 K</p>
+                                  </div>
+                                  <div class="popular__icon"> 
+                                  <div class="popular__btr">
+                                      <button class="popular__hot">Hot</button>
+                                      <button class="popular__hot">Cold</button>
+                                  </div>   
+                                  <img style="width: 40px;" src="./logo/market2.svg" alt="">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="container">
+                <h2>Special for you</h2>
+                <img class="rectangle" src="./assets/Rectangle 7 (1).svg" alt="">
+                <div class="skeleton"> </div>
+            <ul class="collection">
+                <li class="item">
+                    <data value="">All</data>
+                </li>
+            </ul>
+                <div class="wrapper">
+
+                </div>
+                <button class="semore">See more</i></button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__box">
+                    <p class="footer__desk">Subscribe to get 50% discount price</p>
+                    <div class="footer__input">
+                        <input class="input" type="text" placeholder="Email address">
+                        <button class="button">Order now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
